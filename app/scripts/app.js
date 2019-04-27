@@ -4,7 +4,8 @@
 
 
 function loadAppId(){
-    var appId = window.localStorage.getItem("appId");
+    // var appId = window.localStorage.getItem("appId");
+    var appId = '5ca342924cf40a0010a9a89e';
     if(appId){
         document.getElementById("appId").value = appId;
     }
